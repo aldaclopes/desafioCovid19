@@ -47,8 +47,7 @@ body {
 
 #UltimasNoticias { 
     background-color: #990299; 
-    padding: 1px;  
-    margin: 0;
+    margin: 2%;
     text-align: center;
     color:white;
     font-family: arial;
@@ -140,13 +139,51 @@ a {
 
 #Pessoal {
     background-color: white;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 2%;
     word-wrap: break-word;
-    background-color: white;
 }
 
 
 .imgPessoal {
     justify-content: center;
+}
+
+.MeuNome {
+    font-style: oblique;
+    text-align: center;
+}
+#Formulario{
+    background-color: #990299; 
+}
+#Form1{
+    background-color: #d5a8d5; 
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    word-wrap: break-word;
+}
+#SaibaMais {
+    background-color: white;
+    margin: 2%;
+    word-wrap: break-word;
+    text-align: center;
+    align-content: center;
+}
+
+.imagemFonte {
+    width: 50px;
+    height: 50px;
+
+}
+.linhaFonte {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+
+}
+.h3SaibaMais{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #610061;
 }
