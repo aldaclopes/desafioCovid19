@@ -165,12 +165,18 @@ a {
 #Formulario{
     background-color: #990299; 
 }
-#Form1{
+
+#form1{
+    background-color: white;
+}
+
+.iframe1{
     background-color: #d5a8d5; 
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 2%;
     word-wrap: break-word;
+    float: left;
 }
 #SaibaMais {
     background-color: white;
@@ -200,6 +206,6 @@ a {
 
 @media only screen and (max-width:800px) {
     /* For mobile phones: */
-    .NoticiaDestaque1, .imgDestaque1, .videoDestaque1, .tituloNoticia, .descDestaque1, .linkDestaque1 {
+    .NoticiaDestaque1, .imgDestaque1, .videoDestaque1, .tituloNoticia, .descDestaque1, .linkDestaque1, .iframe1 {
       width:100%;
     }
