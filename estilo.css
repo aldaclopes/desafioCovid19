@@ -136,3 +136,17 @@ a {
     font-family: arial;
     font-size: 80%;
 }
+
+
+#Pessoal {
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    word-wrap: break-word;
+    background-color: white;
+}
+
+
+.imgPessoal {
+    justify-content: center;
+}
