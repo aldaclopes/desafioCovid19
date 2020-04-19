@@ -1,0 +1,138 @@
+body {
+    background-color: #990299; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#cabecalho {
+    background-color: #990299;   
+    text-align: center;
+    color:white;
+}
+
+
+#navbar {    
+    background-color: #990299;       
+    margin: 0;
+    padding: 0;
+}
+
+    .menu {
+        list-style-type: none;
+        padding-top: 0%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: grey;
+      }
+      
+      .linhamenu {
+        float: right;
+        align-content: flex-end;
+      }
+      
+      .linhamenu a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .linhamenu a:hover {
+        background-color:grey;
+      }
+      .active {
+        background-color: #990299;
+      }
+
+#UltimasNoticias { 
+    background-color: #990299; 
+    padding: 1px;  
+    margin: 0;
+    text-align: center;
+    color:white;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    text-shadow: grey 1px 1px 5px;
+}
+
+
+#conteudo {
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+    
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+#Noticias {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: auto;
+}
+
+
+.NoticiaDestaque1 {
+    border: grey 2px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: #610061 2px 2px 3px;
+    word-wrap: break-word;
+}
+.imgDestaque1 {
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.videoDestaque1 {
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    align-content: center;
+}
+    
+.tituloNoticia {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-wrap: break-word;
+    color: #610061;
+}
+
+.descDestaque1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+.linkDestaque1 {  
+        font-size: 50%;
+        color: blue;
+        text-decoration: underline;
+        word-wrap: break-word;
+        text-align: center
+}
+#rodape {
+    background-color: #990299; 
+    padding: 1px;  
+    margin: 0;
+    text-align: center;
+    color:white;
+    font-family: arial;
+    font-size: 80%;
+}
