@@ -71,7 +71,7 @@ a {
 
 #Noticias {
     margin-top: 20px;
-    display: -webkit-inline-flex;
+    display: inline-table;
     justify-content: space-between;
     width: 50%;
     height: auto;
