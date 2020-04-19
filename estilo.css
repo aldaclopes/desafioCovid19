@@ -136,15 +136,6 @@ a {
         float: left;
 }
 
-#rodape {
-    background-color:grey; 
-    padding: 1px;  
-    margin: 2%;
-    text-align: center;
-    color:white;
-    font-family: arial;
-    font-size: 80%;
-}
 
 
 #Pessoal {
@@ -168,15 +159,16 @@ a {
 
 #form1{
     background-color: white;
+    margin: 2%;
+    align-content: center;
 }
 
 .iframe1{
     background-color: #d5a8d5; 
-    margin-left: 25%;
-    margin-right: 25%;
+    align-content: center;
     margin-top: 2%;
     word-wrap: break-word;
-    float: left;
+    margin-left: 20%;
 }
 #SaibaMais {
     background-color: white;
@@ -202,6 +194,16 @@ a {
 .h3SaibaMais{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #610061;
+}
+
+#rodape {
+    background-color:grey; 
+    padding: 1px;  
+    margin: 2%;
+    text-align: center;
+    color:white;
+    font-family: arial;
+    font-size: 80%;
 }
 
 @media only screen and (max-width:800px) {
