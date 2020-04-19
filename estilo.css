@@ -84,6 +84,7 @@ a {
     margin-right: 10px;
     box-shadow: #610061 2px 2px 3px;
     word-wrap: break-word;
+    float: left;
 }
 .imgDestaque1 {
     width: 500px;
@@ -130,9 +131,7 @@ a {
 #rodape {
     background-color:grey; 
     padding: 1px;  
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 2%;
     text-align: center;
     color:white;
     font-family: arial;
